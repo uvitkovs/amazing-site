@@ -203,4 +203,11 @@
   }
   
 
-  
+  .coffee-roast {
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fefefe;
+    margin-bottom: 20px;
+
+  }
