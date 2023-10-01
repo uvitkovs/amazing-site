@@ -8,7 +8,7 @@
   }
   
   .flex-item {
-    background: tomato;
+    background: rgb(83, 12, 12);
     padding: 5px;
     width: 200px;
     height: 150px;
@@ -26,7 +26,7 @@
   justify-content: flex-end;
   list-style: none;
   margin: 0; 
-  background: deepskyblue;
+  background: #0d282d;
 }
 
 .navigation a {
@@ -34,10 +34,6 @@
   display: block;
   padding: 1em;
   color: white;
-}
-
-.navigation a:hover {
-  background: #1565C0;
 }
 
 @media all and (max-width: 800px) {
@@ -76,11 +72,11 @@
   }
   
   .header {
-    background: tomato;
+    background: rgb(255, 255, 255);
     font-family: "Arial", sans-serif;
     font-size: 36px;
     font-weight: bold;
-    color: #333; /* You can choose your preferred text color */
+    color: #333;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
@@ -90,15 +86,15 @@
   
   .main {
     text-align: left;
-    background: deepskyblue;
+    background: #81b8bc;
   }
   
   .aside-1 {
-    background: gold;
+    background: rgb(89, 157, 166);
   }
   
   .aside-2 {
-    background: hotpink;
+    background: rgb(89, 157, 166);
    
   }
   
@@ -123,7 +119,7 @@
   /* This is the footer  */
 
   footer {
-    background-color: #333;
+    background-color: #0d282d;
     color: #fff;
     padding: 20px 1em;
   }
