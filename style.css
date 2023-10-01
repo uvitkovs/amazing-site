@@ -1,53 +1,77 @@
-section {
+.parent {
     display: flex;
-}
+    height: 300px; /* Or whatever */
+  }
+  
+  .child {
+    width: 100px;  /* Or whatever */
+    height: 100px; /* Or whatever */
+    margin: auto;  /* Magic! */
+  }
 
-body {
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
     margin: 0;
-    height: 100vh;
+    list-style: none;
+  }
+  
+  .flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
 
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 50px 1fr 50px;
-    grid-gap: 5px;
+  HTML CSSResult Skip Results Iframe
+EDIT ON
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  
+  list-style: none;
+  margin: 0; 
+  background: deepskyblue;
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    height: 50px;
-    background-color: firebrick;
-
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
 }
 
-section {
-    display: flex;
+.navigation a:hover {
+  background: #1565C0;
 }
 
-aside {
-    background-color: blue;
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
 }
 
-main {
-    background-color: aqua;
-}
-
-footer {
-    background-color: rgb(12, 144, 100);
-}
-
-.flex-ctr {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav, footer {
-    grid-column: span 2;
-}
-
-nav div {
-    margin: 10px;
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
 }
