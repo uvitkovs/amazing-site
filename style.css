@@ -6,19 +6,6 @@
     margin: 0;
     list-style: none;
   }
-  
-  .flex-item {
-    background: rgb(83, 12, 12);
-    padding: 5px;
-    width: 200px;
-    height: 150px;
-    margin-top: 10px;
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-  }
 
 .navigation {
   display: flex;
@@ -81,6 +68,8 @@
     text-align: center;
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
 
   
@@ -111,9 +100,8 @@
   }
   
   body {
-    padding: 1em; 
+    padding: 2em; 
   }
-
 
 
   /* This is the footer  */
@@ -141,6 +129,13 @@
   h3 {
     font-size: 1.2rem;
     margin-bottom: 10px;
+    color: #333;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
   }
   
   p {
@@ -201,11 +196,10 @@
   
   p.classy-paragraph {
     font-family: 'Segoe UI', Tahoma, sans-serif;
-    font-size: 12px; /* Adjust the font size as needed */
-    color: #333; /* Dark gray text color */
+    font-size: 12px;
+    color: #333; 
     line-height: 1.6;
-    margin-bottom: 15px; /* Add spacing between paragraphs */
-    text-align: justify; /* Justify the text for a clean look */
+    margin-bottom: 15px;
   }
 
   .coffee-roast {
@@ -213,9 +207,7 @@
     font-size: 16px;
     line-height: 1.6;
     color: #fefefe;
-    margin-bottom: 20px;
-
-  }
+    }
 
   .photo-with-fuzzy-border {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
