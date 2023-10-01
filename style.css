@@ -1,14 +1,3 @@
-.parent {
-    display: flex;
-    height: 300px; 
-  }
-  
-  .child {
-    width: 100px;  
-    height: 100px; 
-    margin: auto;
-  }
-
   .flex-container {
     display: flex;
     flex-flow: row wrap;
@@ -72,7 +61,7 @@
     border-bottom: none;
   }
 }
-/* Totally new stuff */
+
 
 .wrapper {
     display: flex;  
@@ -88,11 +77,16 @@
   
   .header {
     background: tomato;
+    font-family: "Arial", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333; /* You can choose your preferred text color */
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   }
-  
-  .footer {
-    background: lightgreen;
-  }
+
   
   .main {
     text-align: left;
@@ -120,27 +114,17 @@
   }
   
   body {
-    padding: 2em; 
+    padding: 1em; 
   }
 
-  h1 {
-    font-family: "Arial", sans-serif;
-    font-size: 36px;
-    font-weight: bold;
-    color: #333; /* You can choose your preferred text color */
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 2px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-  }
+
 
   /* This is the footer  */
 
   footer {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 20px 1em;
   }
   
   .footer-container {
@@ -208,4 +192,15 @@
   }
   
   
+  /* This is paragraph styling */
+
+  p {
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fefefe;
+    margin-bottom: 20px;
+  }
+  
+
   
