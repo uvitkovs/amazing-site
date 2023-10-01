@@ -99,6 +99,7 @@
   
   .aside-2 {
     background: hotpink;
+   
   }
   
   @media all and (min-width: 600px) {
@@ -202,6 +203,14 @@
     margin-bottom: 20px;
   }
   
+  p.classy-paragraph {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 12px; /* Adjust the font size as needed */
+    color: #333; /* Dark gray text color */
+    line-height: 1.6;
+    margin-bottom: 15px; /* Add spacing between paragraphs */
+    text-align: justify; /* Justify the text for a clean look */
+  }
 
   .coffee-roast {
     font-family: 'Helvetica', Arial, sans-serif;
@@ -210,4 +219,8 @@
     color: #fefefe;
     margin-bottom: 20px;
 
+  }
+
+  .photo-with-fuzzy-border {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
   }
