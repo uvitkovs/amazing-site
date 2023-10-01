@@ -122,3 +122,90 @@
   body {
     padding: 2em; 
   }
+
+  h1 {
+    font-family: "Arial", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333; /* You can choose your preferred text color */
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+
+  /* This is the footer  */
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .social-icon {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+  }
+  
+  .social-icon:before {
+    content: "\f09a"; /* Font Awesome icon for Facebook */
+    margin-right: 5px;
+  }
+  
+  .social-icon:nth-child(2):before {
+    content: "\f099"; /* Font Awesome icon for Twitter */
+  }
+  
+  .social-icon:nth-child(3):before {
+    content: "\f16d"; /* Font Awesome icon for Instagram */
+  }
+  
+  /* This is style navigation for links */
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* This is a hover effect for navigation links */
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
