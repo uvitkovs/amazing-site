@@ -1,12 +1,12 @@
 .parent {
     display: flex;
-    height: 300px; /* Or whatever */
+    height: 300px; 
   }
   
   .child {
-    width: 100px;  /* Or whatever */
-    height: 100px; /* Or whatever */
-    margin: auto;  /* Magic! */
+    width: 100px;  
+    height: 100px; 
+    margin: auto;
   }
 
   .flex-container {
@@ -31,13 +31,10 @@
     text-align: center;
   }
 
-  HTML CSSResult Skip Results Iframe
-EDIT ON
 .navigation {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
-  
   list-style: none;
   margin: 0; 
   background: deepskyblue;
@@ -75,3 +72,53 @@ EDIT ON
     border-bottom: none;
   }
 }
+/* Totally new stuff */
+
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center; 
+  }
+  
+  .wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+  }
+  
+  .header {
+    background: tomato;
+  }
+  
+  .footer {
+    background: lightgreen;
+  }
+  
+  .main {
+    text-align: left;
+    background: deepskyblue;
+  }
+  
+  .aside-1 {
+    background: gold;
+  }
+  
+  .aside-2 {
+    background: hotpink;
+  }
+  
+  @media all and (min-width: 600px) {
+    .aside { flex: 1 0 0; }
+  }
+  
+  @media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 1; } 
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
+  }
+  
+  body {
+    padding: 2em; 
+  }
